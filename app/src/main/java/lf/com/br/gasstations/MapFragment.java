@@ -24,7 +24,7 @@ import lf.com.br.gasstations.model.Posto;
  * Created by Fernando on 17/04/2016.
  */
 public class MapFragment extends SupportMapFragment {
-
+    
     private List<Posto> listaPostos;
     private ProgressDialog dialog;
 

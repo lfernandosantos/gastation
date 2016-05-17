@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/material_blue_grey_900</item>
+        <item name="colorPrimaryDark">@color/material_blue_grey_800</item>
+        <item name="colorAccent">@color/common_plus_signin_btn_text_light_pressed</item>
+        <item name="android:navigationBarColor">@color/material_grey_600</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:statusBarColor">@color/material_grey_600</item>
+        <item name="android:textColorPrimaryInverse">@color/accent_material_light</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondaryInverse">@color/wallet_link_text_light</item>
+        <item name="android:windowBackground">@android:color/background_light</item>
+        <item name="android:textColorSecondary">@color/common_plus_signin_btn_text_light</item>
+    </style>
+</resources>

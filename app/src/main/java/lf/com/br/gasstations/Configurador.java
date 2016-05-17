@@ -17,11 +17,12 @@ public class Configurador implements GoogleApiClient.ConnectionCallbacks {
         this.refreshLocation = refreshLocation;
     }
 
+
     @Override
     public void onConnected(@Nullable Bundle bundle) {
         LocationRequest request = LocationRequest.create();
         request.setInterval(2000);
-        request.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+        request.setPriority(LocationRequest.PRIORITY_BALANCED_POWER_ACCURACY);
         request.setSmallestDisplacement(50);
 
         refreshLocation.inicia(request);
